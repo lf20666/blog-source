@@ -16,7 +16,12 @@ module.exports = {
           { text: '注意事项', link: '/guide/Git/注意事项' }
         ]
       },
-      { text: 'External', link: 'https://google.com' },
+      {
+        text: '搜索', items: [
+          { text: '百度', link: 'https://www.baidu.com' },
+          { text: 'google', link: 'https://google.com' }
+        ]
+      },
     ]
   },
   head: [
