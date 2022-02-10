@@ -1,6 +1,4 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'description!',
   themeConfig: {
     logo: '/assets/img/logo.jpg',
     nav: [
@@ -22,7 +20,11 @@ module.exports = {
           { text: 'google', link: 'https://google.com' }
         ]
       },
-    ]
+    ],
+    sidebar: {
+      '/guide/Git/': ['命令', '注意事项'],
+      '/': ['']
+    }
   },
   head: [
     ['link', {
