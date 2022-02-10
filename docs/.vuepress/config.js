@@ -10,6 +10,11 @@ module.exports = {
           { text: '收藏夹', link: '/guide/Favorites/a' }
         ]
       },
+      {
+        text: 'git操作', items: [
+          { text: '注意事项', link: '/guide/Git/注意事项' }
+        ]
+      },
       { text: 'External', link: 'https://google.com' },
     ]
   },
