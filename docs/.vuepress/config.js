@@ -12,6 +12,7 @@ module.exports = {
       },
       {
         text: 'git操作', items: [
+          { text: '命令', link: '/guide/Git/命令' },
           { text: '注意事项', link: '/guide/Git/注意事项' }
         ]
       },
