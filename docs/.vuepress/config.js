@@ -1,6 +1,18 @@
 module.exports = {
   title: 'Hello VuePress',
-  description: 'Hello, my friend!',
+  description: 'description!',
+  themeConfig: {
+    logo: '/assets/img/logo.jpg',
+    nav: [
+      { text: 'Home', link: '/' },
+      {
+        text: 'Favorites', items: [
+          { text: '收藏夹', link: '/guide/Favorites/a' }
+        ]
+      },
+      { text: 'External', link: 'https://google.com' },
+    ]
+  },
   head: [
     ['link', {
       rel: 'icon',
